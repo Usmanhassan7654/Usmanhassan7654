@@ -11,6 +11,11 @@ Engineering (Electronics), DHA Suffa University
 
 #### Featured work
 
+**[Verified Experience Memory](https://github.com/Usmanhassan7654/verified-experience-memory)**
+*Problem:* agents that remember things across conversations get poisoned by fake messages and keep using outdated facts.
+*What I did:* tested six memory designs on one 60-day business timeline with silent price changes, 11 poisoned messages and a database outage. My design checks facts before saving, blocks instructions from untrusted text, and re-checks memories before using them.
+*Proof:* matched no-memory accuracy (100%) at 15% of the tool cost. Naive memory was poisoned in 55.6% of answers. 18 tests, runs offline.
+
 **[Business Data Retrieval Lab](https://github.com/Usmanhassan7654/business-data-retrieval-lab)**
 *Problem:* business assistants give wrong answers when company data is dumped into a vector
 store as text chunks.
